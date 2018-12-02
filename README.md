@@ -11,6 +11,20 @@ Only one thing user should do is that setting up the database connection, withou
 
 [Demo config](./release/ssrpanel_plugin-demo.json)
 
+### How to use
+
+> Currently plugins are only supported on Linux and macOS
+
+```
+mkdir v2ray &&  cd v2ray
+wget https://github.com/ColetteContreras/v2ray-ssrpanel-plugin/releases/download/v0.1-alpha/v2ray-ssrpanel-plugin-linux-64.zip
+unzip v2ray-ssrpanel-plugin-linux-64.zip
+unzip v2ray-linux-64.zip
+
+# update config.json according to ssrpanel_plugin-demo.json
+./v2ray -plugin
+```
+
 ### Screenshot
 
 ```
